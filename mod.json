@@ -1,0 +1,22 @@
+{
+  "geode": "4.0.0",
+  "gd": { "win": "2.2074", "android": "2.2074", "mac": "2.2074" },
+  "version": "v1.0.0",
+  "id": "yourname.hitjudge",
+  "name": "HitJudge",
+  "developer": "yourname",
+  "description": "Click-timing judgment overlay (frame offset buckets, frame length/Hz, accuracy, FPS) with a built-in macro bot.",
+  "settings": {
+    "frame-hz": {
+      "type": "float",
+      "name": "Frame Hz",
+      "description": "Frame rate used to show frame length (1000 / Hz ms).",
+      "default": 32.0,
+      "min": 1.0,
+      "max": 960.0
+    },
+    "show-overlay": { "type": "bool", "name": "Show overlay", "default": true },
+    "bot-record": { "type": "bool", "name": "Bot: record clicks", "default": false },
+    "bot-play": { "type": "bool", "name": "Bot: replay macro", "default": false }
+  }
+}
